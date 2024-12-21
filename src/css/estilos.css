@@ -6,6 +6,10 @@ body {
 	background-size: cover;
 }
 
+body audio {
+	display: none;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -46,7 +50,7 @@ main .listagem-pokemon {
 }
 
 main .cartao-pokemon {
-	background-color: #dcd7d7;
+	background-color: #e8e8e8;
 	color: #ee8130;
 	text-shadow: rgb(37, 168, 220) 1px 1px 2px;
 	width: 200px;
@@ -60,13 +64,24 @@ main .cartao-pokemon {
 }
 
 main .cartao-pokemon:hover {
-	background-color: #49b9b9;
+	background-color: #ecc827;
+}
+
+.modo-escuro{
+	background: url('../images street fighter/sf2ww-vega-broken.gif') no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
 
 .modo-escuro .cartao-pokemon {
 	background-color: #1e1d1d;
 	color: #FFCC55;
 	text-shadow: #000088 2px 2px 1px;
+}
+
+.modo-escuro .cartao-pokemon:hover {
+	background-color: #ff7f55;
 }
 
 main .cartao-pokemon .informacoes {
@@ -100,8 +115,15 @@ main .cartao-pokemon .tipo {
 	max-width: 98%;
 }
 
+main .descricao {
+	font-family: "pixel font bold", sans-serif;
+	max-height: 80px;
+	overflow-y: scroll;
+	font-size: 14px;
+	padding-right: 10px;
+}
 .grama {
-	background-color: #faf7f5;
+	background-color: #f8f8f8;
 }
 
 .veneno {
@@ -109,15 +131,17 @@ main .cartao-pokemon .tipo {
 }
 
 .fogo {
-	background-color: #ee8130;
+	color: #ecc827;
+	background-color: #d07733;
 }
 
 .agua {
-	background-color: #6390f0;
+	color: #d5d4d4;
+	background-color: #5d7ec5;
 }
 
 .inseto {
-	background-color: #a6b91a;
+	background-color: #929e34;
 }
 
 main .descricao {
