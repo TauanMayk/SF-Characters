@@ -1,0 +1,128 @@
+body {
+	font-family: 'ssf2', sans-serif;
+	max-width: 1280px;
+	margin: 0 auto;
+	background: url('../images street fighter/sf2st-blanka.gif') no-repeat center center fixed;
+	background-size: cover;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+header .logo{
+	width: 100px;
+	transition: 0.3s ease-in-out;
+}
+
+header .imagem-botao {
+	width: 30px;
+	transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema {
+	background: none;
+	border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-pokemon:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+main {
+	padding: 25px;
+}
+
+main .listagem-pokemon {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+main .cartao-pokemon {
+	background-color: #dcd7d7;
+	color: #ee8130;
+	text-shadow: rgb(37, 168, 220) 1px 1px 2px;
+	width: 200px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 15px;
+	transition: 0.2s ease-in-out;
+}
+
+main .cartao-pokemon:hover {
+	background-color: #49b9b9;
+}
+
+.modo-escuro .cartao-pokemon {
+	background-color: #1e1d1d;
+	color: #FFCC55;
+	text-shadow: #000088 2px 2px 1px;
+}
+
+main .cartao-pokemon .informacoes {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #333333;
+	border-radius: 10px;
+}
+
+main .cartao-pokemon .informacoes span {
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+main .cartao-pokemon .gif {
+	width: 90px;
+	height: 90px;
+}
+
+main .cartao-pokemon .tipos {
+	display: flex;
+	gap: 15px;
+}
+
+main .cartao-pokemon .tipo {
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 10px;
+	text-align: justify;
+	max-width: 98%;
+}
+
+.grama {
+	background-color: #faf7f5;
+}
+
+.veneno {
+	background-color: #85c437fb;
+}
+
+.fogo {
+	background-color: #ee8130;
+}
+
+.agua {
+	background-color: #6390f0;
+}
+
+.inseto {
+	background-color: #a6b91a;
+}
+
+main .descricao {
+	max-height: 80px;
+	overflow-y: scroll;
+	font-size: 14px;
+	padding-right: 10px;
+}
