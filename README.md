@@ -9,4 +9,6 @@ Conteudos do Página:
 - Fontes estilizadas
 - Animações
 
-## Preview:![Screenshot_96](https://github.com/user-attachments/assets/25746b80-0bba-4d8a-bbda-a3256d991431)
+## Preview:
+![Screenshot_98](https://github.com/user-attachments/assets/53efbdd0-2471-4aa8-b226-0ebac4f355e2)
+
